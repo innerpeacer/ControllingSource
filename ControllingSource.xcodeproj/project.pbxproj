@@ -15,6 +15,7 @@
 		57A7395619B46A6000530757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A7395419B46A6000530757 /* Main.storyboard */; };
 		57A7395819B46A6000530757 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57A7395719B46A6000530757 /* Images.xcassets */; };
 		57A7396419B46A6000530757 /* ControllingSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A7396319B46A6000530757 /* ControllingSourceTests.m */; };
+		57E2F9E419B477E400641C02 /* HelloObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E2F9E319B477E400641C02 /* HelloObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		57A7395D19B46A6000530757 /* ControllingSourceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControllingSourceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A7396219B46A6000530757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57A7396319B46A6000530757 /* ControllingSourceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllingSourceTests.m; sourceTree = "<group>"; };
+		57E2F9E219B477E400641C02 /* HelloObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloObject.h; sourceTree = "<group>"; };
+		57E2F9E319B477E400641C02 /* HelloObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				57E2F9E019B4706000641C02 /* ViewControllers */,
 				57E2F9E119B470CC00641C02 /* Resources */,
 				57A7394419B46A6000530757 /* Supporting Files */,
+				57E2F9E219B477E400641C02 /* HelloObject.h */,
+				57E2F9E319B477E400641C02 /* HelloObject.m */,
 			);
 			path = ControllingSource;
 			sourceTree = "<group>";
@@ -244,6 +249,7 @@
 				57A7394D19B46A6000530757 /* ControllingSource.xcdatamodeld in Sources */,
 				57A7394A19B46A6000530757 /* AppDelegate.m in Sources */,
 				57A7394719B46A6000530757 /* main.m in Sources */,
+				57E2F9E419B477E400641C02 /* HelloObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
